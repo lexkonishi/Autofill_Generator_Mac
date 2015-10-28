@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1FFC4AB1BDEA62A00B584AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4AA1BDEA62A00B584AB /* AppDelegate.swift */; };
+		D1FFC4AD1BDEA62A00B584AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4AC1BDEA62A00B584AB /* ViewController.swift */; };
+		D1FFC4AF1BDEA62A00B584AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FFC4AE1BDEA62A00B584AB /* Assets.xcassets */; };
+		D1FFC4B21BDEA62A00B584AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FFC4B01BDEA62A00B584AB /* Main.storyboard */; };
+		D1FFC4BD1BDEA62B00B584AB /* Autofill_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4BC1BDEA62B00B584AB /* Autofill_GeneratorTests.swift */; };
+		D1FFC4C81BDEA62B00B584AB /* Autofill_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4C71BDEA62B00B584AB /* Autofill_GeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1FFC4B91BDEA62B00B584AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FFC49F1BDEA62A00B584AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FFC4A61BDEA62A00B584AB;
+			remoteInfo = "Autofill Generator";
+		};
+		D1FFC4C41BDEA62B00B584AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FFC49F1BDEA62A00B584AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FFC4A61BDEA62A00B584AB;
+			remoteInfo = "Autofill Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1FFC4A71BDEA62A00B584AB /* Autofill Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autofill Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC4AA1BDEA62A00B584AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1FFC4AC1BDEA62A00B584AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1FFC4AE1BDEA62A00B584AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FFC4B11BDEA62A00B584AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1FFC4B31BDEA62A00B584AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FFC4B81BDEA62B00B584AB /* Autofill GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC4BC1BDEA62B00B584AB /* Autofill_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_GeneratorTests.swift; sourceTree = "<group>"; };
+		D1FFC4BE1BDEA62B00B584AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FFC4C31BDEA62B00B584AB /* Autofill GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC4C71BDEA62B00B584AB /* Autofill_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_GeneratorUITests.swift; sourceTree = "<group>"; };
+		D1FFC4C91BDEA62B00B584AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FFC4A41BDEA62A00B584AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC4B51BDEA62B00B584AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC4C01BDEA62B00B584AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1FFC49E1BDEA62A00B584AB = {
+			isa = PBXGroup;
+			children = (
+				D1FFC4A91BDEA62A00B584AB /* Autofill Generator */,
+				D1FFC4BB1BDEA62B00B584AB /* Autofill GeneratorTests */,
+				D1FFC4C61BDEA62B00B584AB /* Autofill GeneratorUITests */,
+				D1FFC4A81BDEA62A00B584AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FFC4A81BDEA62A00B584AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC4A71BDEA62A00B584AB /* Autofill Generator.app */,
+				D1FFC4B81BDEA62B00B584AB /* Autofill GeneratorTests.xctest */,
+				D1FFC4C31BDEA62B00B584AB /* Autofill GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FFC4A91BDEA62A00B584AB /* Autofill Generator */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC4AA1BDEA62A00B584AB /* AppDelegate.swift */,
+				D1FFC4AC1BDEA62A00B584AB /* ViewController.swift */,
+				D1FFC4AE1BDEA62A00B584AB /* Assets.xcassets */,
+				D1FFC4B01BDEA62A00B584AB /* Main.storyboard */,
+				D1FFC4B31BDEA62A00B584AB /* Info.plist */,
+			);
+			path = "Autofill Generator";
+			sourceTree = "<group>";
+		};
+		D1FFC4BB1BDEA62B00B584AB /* Autofill GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC4BC1BDEA62B00B584AB /* Autofill_GeneratorTests.swift */,
+				D1FFC4BE1BDEA62B00B584AB /* Info.plist */,
+			);
+			path = "Autofill GeneratorTests";
+			sourceTree = "<group>";
+		};
+		D1FFC4C61BDEA62B00B584AB /* Autofill GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC4C71BDEA62B00B584AB /* Autofill_GeneratorUITests.swift */,
+				D1FFC4C91BDEA62B00B584AB /* Info.plist */,
+			);
+			path = "Autofill GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FFC4A61BDEA62A00B584AB /* Autofill Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC4CC1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill Generator" */;
+			buildPhases = (
+				D1FFC4A31BDEA62A00B584AB /* Sources */,
+				D1FFC4A41BDEA62A00B584AB /* Frameworks */,
+				D1FFC4A51BDEA62A00B584AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autofill Generator";
+			productName = "Autofill Generator";
+			productReference = D1FFC4A71BDEA62A00B584AB /* Autofill Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1FFC4B71BDEA62B00B584AB /* Autofill GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC4CF1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */;
+			buildPhases = (
+				D1FFC4B41BDEA62B00B584AB /* Sources */,
+				D1FFC4B51BDEA62B00B584AB /* Frameworks */,
+				D1FFC4B61BDEA62B00B584AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FFC4BA1BDEA62B00B584AB /* PBXTargetDependency */,
+			);
+			name = "Autofill GeneratorTests";
+			productName = "Autofill GeneratorTests";
+			productReference = D1FFC4B81BDEA62B00B584AB /* Autofill GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1FFC4C21BDEA62B00B584AB /* Autofill GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC4D21BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorUITests" */;
+			buildPhases = (
+				D1FFC4BF1BDEA62B00B584AB /* Sources */,
+				D1FFC4C01BDEA62B00B584AB /* Frameworks */,
+				D1FFC4C11BDEA62B00B584AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FFC4C51BDEA62B00B584AB /* PBXTargetDependency */,
+			);
+			name = "Autofill GeneratorUITests";
+			productName = "Autofill GeneratorUITests";
+			productReference = D1FFC4C31BDEA62B00B584AB /* Autofill GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FFC49F1BDEA62A00B584AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Lex;
+				TargetAttributes = {
+					D1FFC4A61BDEA62A00B584AB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D1FFC4B71BDEA62B00B584AB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D1FFC4A61BDEA62A00B584AB;
+					};
+					D1FFC4C21BDEA62B00B584AB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D1FFC4A61BDEA62A00B584AB;
+					};
+				};
+			};
+			buildConfigurationList = D1FFC4A21BDEA62A00B584AB /* Build configuration list for PBXProject "Autofill Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1FFC49E1BDEA62A00B584AB;
+			productRefGroup = D1FFC4A81BDEA62A00B584AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FFC4A61BDEA62A00B584AB /* Autofill Generator */,
+				D1FFC4B71BDEA62B00B584AB /* Autofill GeneratorTests */,
+				D1FFC4C21BDEA62B00B584AB /* Autofill GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1FFC4A51BDEA62A00B584AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC4AF1BDEA62A00B584AB /* Assets.xcassets in Resources */,
+				D1FFC4B21BDEA62A00B584AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC4B61BDEA62B00B584AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC4C11BDEA62B00B584AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FFC4A31BDEA62A00B584AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC4AD1BDEA62A00B584AB /* ViewController.swift in Sources */,
+				D1FFC4AB1BDEA62A00B584AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC4B41BDEA62B00B584AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC4BD1BDEA62B00B584AB /* Autofill_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC4BF1BDEA62B00B584AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC4C81BDEA62B00B584AB /* Autofill_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1FFC4BA1BDEA62B00B584AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FFC4A61BDEA62A00B584AB /* Autofill Generator */;
+			targetProxy = D1FFC4B91BDEA62B00B584AB /* PBXContainerItemProxy */;
+		};
+		D1FFC4C51BDEA62B00B584AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FFC4A61BDEA62A00B584AB /* Autofill Generator */;
+			targetProxy = D1FFC4C41BDEA62B00B584AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1FFC4B01BDEA62A00B584AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FFC4B11BDEA62A00B584AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1FFC4CA1BDEA62B00B584AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1FFC4CB1BDEA62B00B584AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1FFC4CD1BDEA62B00B584AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Autofill Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1FFC4CE1BDEA62B00B584AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Autofill Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1FFC4D01BDEA62B00B584AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Autofill GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill Generator.app/Contents/MacOS/Autofill Generator";
+			};
+			name = Debug;
+		};
+		D1FFC4D11BDEA62B00B584AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Autofill GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill Generator.app/Contents/MacOS/Autofill Generator";
+			};
+			name = Release;
+		};
+		D1FFC4D31BDEA62B00B584AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Autofill GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Autofill Generator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D1FFC4D41BDEA62B00B584AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Autofill GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Autofill Generator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FFC4A21BDEA62A00B584AB /* Build configuration list for PBXProject "Autofill Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC4CA1BDEA62B00B584AB /* Debug */,
+				D1FFC4CB1BDEA62B00B584AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC4CC1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC4CD1BDEA62B00B584AB /* Debug */,
+				D1FFC4CE1BDEA62B00B584AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC4CF1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC4D01BDEA62B00B584AB /* Debug */,
+				D1FFC4D11BDEA62B00B584AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC4D21BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC4D31BDEA62B00B584AB /* Debug */,
+				D1FFC4D41BDEA62B00B584AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1FFC49F1BDEA62A00B584AB /* Project object */;
+}
