@@ -23,7 +23,7 @@ class ViewController: NSViewController {
         let typeText = pop_autofillType.titleOfSelectedItem
         switch typeText {
             case let (typeText) where typeText == "PLAYERS":
-                view_autofillType.window = view_players.window
+                
                 print("Players")
             case let (typeText) where typeText == "TEAMS":
                 print("Teams")
