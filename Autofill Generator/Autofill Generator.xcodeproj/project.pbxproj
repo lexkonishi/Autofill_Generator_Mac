@@ -7,70 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		D14212131BE98D1200500FA8 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14212121BE98D1200500FA8 /* TabViewController.swift */; };
-=======
-		D18E8B9B1BEAB165004B8ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18E8B9A1BEAB165004B8ED5 /* Assets.xcassets */; };
->>>>>>> origin/master
-		D1FFC4AB1BDEA62A00B584AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4AA1BDEA62A00B584AB /* AppDelegate.swift */; };
-		D1FFC4AD1BDEA62A00B584AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4AC1BDEA62A00B584AB /* ViewController.swift */; };
-		D1FFC4B21BDEA62A00B584AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FFC4B01BDEA62A00B584AB /* Main.storyboard */; };
-		D1FFC4BD1BDEA62B00B584AB /* Autofill_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4BC1BDEA62B00B584AB /* Autofill_GeneratorTests.swift */; };
-		D1FFC4C81BDEA62B00B584AB /* Autofill_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC4C71BDEA62B00B584AB /* Autofill_GeneratorUITests.swift */; };
+		D17D0BAE1BEAE5650071AAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D0BAD1BEAE5650071AAC1 /* AppDelegate.swift */; };
+		D17D0BB01BEAE5650071AAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D0BAF1BEAE5650071AAC1 /* ViewController.swift */; };
+		D17D0BB21BEAE5650071AAC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17D0BB11BEAE5650071AAC1 /* Images.xcassets */; };
+		D17D0BB51BEAE5650071AAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17D0BB31BEAE5650071AAC1 /* Main.storyboard */; };
+		D17D0BC11BEAE5660071AAC1 /* Autofill_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D0BC01BEAE5660071AAC1 /* Autofill_GeneratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D1FFC4B91BDEA62B00B584AB /* PBXContainerItemProxy */ = {
+		D17D0BBB1BEAE5660071AAC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D1FFC49F1BDEA62A00B584AB /* Project object */;
+			containerPortal = D17D0BA01BEAE5650071AAC1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D1FFC4A61BDEA62A00B584AB;
-			remoteInfo = "Autofill Generator";
-		};
-		D1FFC4C41BDEA62B00B584AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1FFC49F1BDEA62A00B584AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1FFC4A61BDEA62A00B584AB;
+			remoteGlobalIDString = D17D0BA71BEAE5650071AAC1;
 			remoteInfo = "Autofill Generator";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		D14212121BE98D1200500FA8 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
-=======
-		D18E8B9A1BEAB165004B8ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
->>>>>>> origin/master
-		D1FFC4A71BDEA62A00B584AB /* Autofill Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autofill Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1FFC4AA1BDEA62A00B584AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1FFC4AC1BDEA62A00B584AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1FFC4B11BDEA62A00B584AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1FFC4B31BDEA62A00B584AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1FFC4B81BDEA62B00B584AB /* Autofill GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1FFC4BC1BDEA62B00B584AB /* Autofill_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_GeneratorTests.swift; sourceTree = "<group>"; };
-		D1FFC4BE1BDEA62B00B584AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1FFC4C31BDEA62B00B584AB /* Autofill GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1FFC4C71BDEA62B00B584AB /* Autofill_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_GeneratorUITests.swift; sourceTree = "<group>"; };
-		D1FFC4C91BDEA62B00B584AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17D0BA81BEAE5650071AAC1 /* Autofill Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autofill Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17D0BAC1BEAE5650071AAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17D0BAD1BEAE5650071AAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D17D0BAF1BEAE5650071AAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D17D0BB11BEAE5650071AAC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D17D0BB41BEAE5650071AAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D17D0BBA1BEAE5660071AAC1 /* Autofill GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17D0BBF1BEAE5660071AAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17D0BC01BEAE5660071AAC1 /* Autofill_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_GeneratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D1FFC4A41BDEA62A00B584AB /* Frameworks */ = {
+		D17D0BA51BEAE5650071AAC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1FFC4B51BDEA62B00B584AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1FFC4C01BDEA62B00B584AB /* Frameworks */ = {
+		D17D0BB71BEAE5660071AAC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,67 +54,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D1FFC49E1BDEA62A00B584AB = {
+		D17D0B9F1BEAE5650071AAC1 = {
 			isa = PBXGroup;
 			children = (
-				D1FFC4A91BDEA62A00B584AB /* Autofill Generator */,
-				D1FFC4BB1BDEA62B00B584AB /* Autofill GeneratorTests */,
-				D1FFC4C61BDEA62B00B584AB /* Autofill GeneratorUITests */,
-				D1FFC4A81BDEA62A00B584AB /* Products */,
+				D17D0BAA1BEAE5650071AAC1 /* Autofill Generator */,
+				D17D0BBD1BEAE5660071AAC1 /* Autofill GeneratorTests */,
+				D17D0BA91BEAE5650071AAC1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D1FFC4A81BDEA62A00B584AB /* Products */ = {
+		D17D0BA91BEAE5650071AAC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1FFC4A71BDEA62A00B584AB /* Autofill Generator.app */,
-				D1FFC4B81BDEA62B00B584AB /* Autofill GeneratorTests.xctest */,
-				D1FFC4C31BDEA62B00B584AB /* Autofill GeneratorUITests.xctest */,
+				D17D0BA81BEAE5650071AAC1 /* Autofill Generator.app */,
+				D17D0BBA1BEAE5660071AAC1 /* Autofill GeneratorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1FFC4A91BDEA62A00B584AB /* Autofill Generator */ = {
+		D17D0BAA1BEAE5650071AAC1 /* Autofill Generator */ = {
 			isa = PBXGroup;
 			children = (
-				D1FFC4AA1BDEA62A00B584AB /* AppDelegate.swift */,
-				D18E8B9A1BEAB165004B8ED5 /* Assets.xcassets */,
-				D1FFC4AC1BDEA62A00B584AB /* ViewController.swift */,
-				D1FFC4B01BDEA62A00B584AB /* Main.storyboard */,
-				D1FFC4B31BDEA62A00B584AB /* Info.plist */,
-				D14212121BE98D1200500FA8 /* TabViewController.swift */,
+				D17D0BAD1BEAE5650071AAC1 /* AppDelegate.swift */,
+				D17D0BAF1BEAE5650071AAC1 /* ViewController.swift */,
+				D17D0BB11BEAE5650071AAC1 /* Images.xcassets */,
+				D17D0BB31BEAE5650071AAC1 /* Main.storyboard */,
+				D17D0BAB1BEAE5650071AAC1 /* Supporting Files */,
 			);
 			path = "Autofill Generator";
 			sourceTree = "<group>";
 		};
-		D1FFC4BB1BDEA62B00B584AB /* Autofill GeneratorTests */ = {
+		D17D0BAB1BEAE5650071AAC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D1FFC4BC1BDEA62B00B584AB /* Autofill_GeneratorTests.swift */,
-				D1FFC4BE1BDEA62B00B584AB /* Info.plist */,
+				D17D0BAC1BEAE5650071AAC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D17D0BBD1BEAE5660071AAC1 /* Autofill GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D17D0BC01BEAE5660071AAC1 /* Autofill_GeneratorTests.swift */,
+				D17D0BBE1BEAE5660071AAC1 /* Supporting Files */,
 			);
 			path = "Autofill GeneratorTests";
 			sourceTree = "<group>";
 		};
-		D1FFC4C61BDEA62B00B584AB /* Autofill GeneratorUITests */ = {
+		D17D0BBE1BEAE5660071AAC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D1FFC4C71BDEA62B00B584AB /* Autofill_GeneratorUITests.swift */,
-				D1FFC4C91BDEA62B00B584AB /* Info.plist */,
+				D17D0BBF1BEAE5660071AAC1 /* Info.plist */,
 			);
-			path = "Autofill GeneratorUITests";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1FFC4A61BDEA62A00B584AB /* Autofill Generator */ = {
+		D17D0BA71BEAE5650071AAC1 /* Autofill Generator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1FFC4CC1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill Generator" */;
+			buildConfigurationList = D17D0BC41BEAE5660071AAC1 /* Build configuration list for PBXNativeTarget "Autofill Generator" */;
 			buildPhases = (
-				D1FFC4A31BDEA62A00B584AB /* Sources */,
-				D1FFC4A41BDEA62A00B584AB /* Frameworks */,
-				D1FFC4A51BDEA62A00B584AB /* Resources */,
+				D17D0BA41BEAE5650071AAC1 /* Sources */,
+				D17D0BA51BEAE5650071AAC1 /* Frameworks */,
+				D17D0BA61BEAE5650071AAC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +126,46 @@
 			);
 			name = "Autofill Generator";
 			productName = "Autofill Generator";
-			productReference = D1FFC4A71BDEA62A00B584AB /* Autofill Generator.app */;
+			productReference = D17D0BA81BEAE5650071AAC1 /* Autofill Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1FFC4B71BDEA62B00B584AB /* Autofill GeneratorTests */ = {
+		D17D0BB91BEAE5660071AAC1 /* Autofill GeneratorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1FFC4CF1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */;
+			buildConfigurationList = D17D0BC71BEAE5660071AAC1 /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */;
 			buildPhases = (
-				D1FFC4B41BDEA62B00B584AB /* Sources */,
-				D1FFC4B51BDEA62B00B584AB /* Frameworks */,
-				D1FFC4B61BDEA62B00B584AB /* Resources */,
+				D17D0BB61BEAE5660071AAC1 /* Sources */,
+				D17D0BB71BEAE5660071AAC1 /* Frameworks */,
+				D17D0BB81BEAE5660071AAC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1FFC4BA1BDEA62B00B584AB /* PBXTargetDependency */,
+				D17D0BBC1BEAE5660071AAC1 /* PBXTargetDependency */,
 			);
 			name = "Autofill GeneratorTests";
 			productName = "Autofill GeneratorTests";
-			productReference = D1FFC4B81BDEA62B00B584AB /* Autofill GeneratorTests.xctest */;
+			productReference = D17D0BBA1BEAE5660071AAC1 /* Autofill GeneratorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D1FFC4C21BDEA62B00B584AB /* Autofill GeneratorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1FFC4D21BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorUITests" */;
-			buildPhases = (
-				D1FFC4BF1BDEA62B00B584AB /* Sources */,
-				D1FFC4C01BDEA62B00B584AB /* Frameworks */,
-				D1FFC4C11BDEA62B00B584AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1FFC4C51BDEA62B00B584AB /* PBXTargetDependency */,
-			);
-			name = "Autofill GeneratorUITests";
-			productName = "Autofill GeneratorUITests";
-			productReference = D1FFC4C31BDEA62B00B584AB /* Autofill GeneratorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D1FFC49F1BDEA62A00B584AB /* Project object */ = {
+		D17D0BA01BEAE5650071AAC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Lex;
 				TargetAttributes = {
-					D1FFC4A61BDEA62A00B584AB = {
-						CreatedOnToolsVersion = 7.1;
+					D17D0BA71BEAE5650071AAC1 = {
+						CreatedOnToolsVersion = 6.4;
 					};
-					D1FFC4B71BDEA62B00B584AB = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = D1FFC4A61BDEA62A00B584AB;
-					};
-					D1FFC4C21BDEA62B00B584AB = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = D1FFC4A61BDEA62A00B584AB;
+					D17D0BB91BEAE5660071AAC1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D17D0BA71BEAE5650071AAC1;
 					};
 				};
 			};
-			buildConfigurationList = D1FFC4A21BDEA62A00B584AB /* Build configuration list for PBXProject "Autofill Generator" */;
+			buildConfigurationList = D17D0BA31BEAE5650071AAC1 /* Build configuration list for PBXProject "Autofill Generator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,36 +173,28 @@
 				en,
 				Base,
 			);
-			mainGroup = D1FFC49E1BDEA62A00B584AB;
-			productRefGroup = D1FFC4A81BDEA62A00B584AB /* Products */;
+			mainGroup = D17D0B9F1BEAE5650071AAC1;
+			productRefGroup = D17D0BA91BEAE5650071AAC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1FFC4A61BDEA62A00B584AB /* Autofill Generator */,
-				D1FFC4B71BDEA62B00B584AB /* Autofill GeneratorTests */,
-				D1FFC4C21BDEA62B00B584AB /* Autofill GeneratorUITests */,
+				D17D0BA71BEAE5650071AAC1 /* Autofill Generator */,
+				D17D0BB91BEAE5660071AAC1 /* Autofill GeneratorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D1FFC4A51BDEA62A00B584AB /* Resources */ = {
+		D17D0BA61BEAE5650071AAC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18E8B9B1BEAB165004B8ED5 /* Assets.xcassets in Resources */,
-				D1FFC4B21BDEA62A00B584AB /* Main.storyboard in Resources */,
+				D17D0BB21BEAE5650071AAC1 /* Images.xcassets in Resources */,
+				D17D0BB51BEAE5650071AAC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1FFC4B61BDEA62B00B584AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1FFC4C11BDEA62B00B584AB /* Resources */ = {
+		D17D0BB81BEAE5660071AAC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,52 +204,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D1FFC4A31BDEA62A00B584AB /* Sources */ = {
+		D17D0BA41BEAE5650071AAC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14212131BE98D1200500FA8 /* TabViewController.swift in Sources */,
-				D1FFC4AD1BDEA62A00B584AB /* ViewController.swift in Sources */,
-				D1FFC4AB1BDEA62A00B584AB /* AppDelegate.swift in Sources */,
+				D17D0BB01BEAE5650071AAC1 /* ViewController.swift in Sources */,
+				D17D0BAE1BEAE5650071AAC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1FFC4B41BDEA62B00B584AB /* Sources */ = {
+		D17D0BB61BEAE5660071AAC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FFC4BD1BDEA62B00B584AB /* Autofill_GeneratorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1FFC4BF1BDEA62B00B584AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1FFC4C81BDEA62B00B584AB /* Autofill_GeneratorUITests.swift in Sources */,
+				D17D0BC11BEAE5660071AAC1 /* Autofill_GeneratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D1FFC4BA1BDEA62B00B584AB /* PBXTargetDependency */ = {
+		D17D0BBC1BEAE5660071AAC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D1FFC4A61BDEA62A00B584AB /* Autofill Generator */;
-			targetProxy = D1FFC4B91BDEA62B00B584AB /* PBXContainerItemProxy */;
-		};
-		D1FFC4C51BDEA62B00B584AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D1FFC4A61BDEA62A00B584AB /* Autofill Generator */;
-			targetProxy = D1FFC4C41BDEA62B00B584AB /* PBXContainerItemProxy */;
+			target = D17D0BA71BEAE5650071AAC1 /* Autofill Generator */;
+			targetProxy = D17D0BBB1BEAE5660071AAC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D1FFC4B01BDEA62A00B584AB /* Main.storyboard */ = {
+		D17D0BB31BEAE5650071AAC1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D1FFC4B11BDEA62A00B584AB /* Base */,
+				D17D0BB41BEAE5650071AAC1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,7 +243,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D1FFC4CA1BDEA62B00B584AB /* Debug */ = {
+		D17D0BC21BEAE5660071AAC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +264,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -340,6 +272,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -354,7 +287,7 @@
 			};
 			name = Debug;
 		};
-		D1FFC4CB1BDEA62B00B584AB /* Release */ = {
+		D17D0BC31BEAE5660071AAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,122 +323,93 @@
 			};
 			name = Release;
 		};
-		D1FFC4CD1BDEA62B00B584AB /* Debug */ = {
+		D17D0BC51BEAE5660071AAC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Autofill Generator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		D1FFC4CE1BDEA62B00B584AB /* Release */ = {
+		D17D0BC61BEAE5660071AAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Autofill Generator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		D1FFC4D01BDEA62B00B584AB /* Debug */ = {
+		D17D0BC81BEAE5660071AAC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "Autofill GeneratorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill Generator.app/Contents/MacOS/Autofill Generator";
 			};
 			name = Debug;
 		};
-		D1FFC4D11BDEA62B00B584AB /* Release */ = {
+		D17D0BC91BEAE5660071AAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "Autofill GeneratorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill Generator.app/Contents/MacOS/Autofill Generator";
-			};
-			name = Release;
-		};
-		D1FFC4D31BDEA62B00B584AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Autofill GeneratorUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Autofill Generator";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		D1FFC4D41BDEA62B00B584AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Autofill GeneratorUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lex.Autofill-GeneratorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Autofill Generator";
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1FFC4A21BDEA62A00B584AB /* Build configuration list for PBXProject "Autofill Generator" */ = {
+		D17D0BA31BEAE5650071AAC1 /* Build configuration list for PBXProject "Autofill Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1FFC4CA1BDEA62B00B584AB /* Debug */,
-				D1FFC4CB1BDEA62B00B584AB /* Release */,
+				D17D0BC21BEAE5660071AAC1 /* Debug */,
+				D17D0BC31BEAE5660071AAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1FFC4CC1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill Generator" */ = {
+		D17D0BC41BEAE5660071AAC1 /* Build configuration list for PBXNativeTarget "Autofill Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1FFC4CD1BDEA62B00B584AB /* Debug */,
-				D1FFC4CE1BDEA62B00B584AB /* Release */,
+				D17D0BC51BEAE5660071AAC1 /* Debug */,
+				D17D0BC61BEAE5660071AAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		D1FFC4CF1BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */ = {
+		D17D0BC71BEAE5660071AAC1 /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1FFC4D01BDEA62B00B584AB /* Debug */,
-				D1FFC4D11BDEA62B00B584AB /* Release */,
+				D17D0BC81BEAE5660071AAC1 /* Debug */,
+				D17D0BC91BEAE5660071AAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1FFC4D21BDEA62B00B584AB /* Build configuration list for PBXNativeTarget "Autofill GeneratorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1FFC4D31BDEA62B00B584AB /* Debug */,
-				D1FFC4D41BDEA62B00B584AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D1FFC49F1BDEA62A00B584AB /* Project object */;
+	rootObject = D17D0BA01BEAE5650071AAC1 /* Project object */;
 }

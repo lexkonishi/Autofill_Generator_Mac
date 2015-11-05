@@ -2,12 +2,12 @@
 //  Autofill_GeneratorTests.swift
 //  Autofill GeneratorTests
 //
-//  Created by Lex Konishi on 10/26/15.
-//  Copyright © 2015 Lex. All rights reserved.
+//  Created by Lex Konishi on 11/4/15.
+//  Copyright (c) 2015 Lex. All rights reserved.
 //
 
+import Cocoa
 import XCTest
-@testable import Autofill_Generator
 
 class Autofill_GeneratorTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class Autofill_GeneratorTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
     }
