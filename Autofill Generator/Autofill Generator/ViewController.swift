@@ -9,18 +9,49 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    @IBOutlet weak var pop_Players_Color: NSPopUpButton!
+    @IBOutlet weak var pop_Players_Class: NSPopUpButton!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override var representedObject: AnyObject? {
         didSet {
-        // Update the view, if already loaded.
+        pop_Players_Color.removeAllItems()
+        pop_Players_Class.removeAllItems()
+        pop_Players_Color.addItemsWithTitles(arrayColors)
+        pop_Players_Class.addItemsWithTitles(arrayClass)
         }
     }
+    
+    
+    var arrayColors = [
+        "BLACK",
+        "NOT BYU BLUE",
+        "GRAY",
+        "GREEN",
+        "NAVY",
+        "ORANGE",
+        "PURPLUE",
+        "RED",
+        "YELLOW"
+    ]
+    var arrayClass = [
+        "Freshman",
+        "Sophomore",
+        "Junior",
+        "Senior"
+    ]
+    var arrayTitle = [
+        "Host",
+        "Analyst",
+        "Announcer",
+        "Reporter"
+    ]
 
 
 }

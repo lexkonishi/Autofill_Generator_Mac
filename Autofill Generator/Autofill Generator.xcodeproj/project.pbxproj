@@ -12,6 +12,7 @@
 		D17D0BB21BEAE5650071AAC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17D0BB11BEAE5650071AAC1 /* Images.xcassets */; };
 		D17D0BB51BEAE5650071AAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17D0BB31BEAE5650071AAC1 /* Main.storyboard */; };
 		D17D0BC11BEAE5660071AAC1 /* Autofill_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D0BC01BEAE5660071AAC1 /* Autofill_GeneratorTests.swift */; };
+		D1CAF6CD1BEAF8A00071FCBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CAF6CC1BEAF8A00071FCBE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		D17D0BBA1BEAE5660071AAC1 /* Autofill GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17D0BBF1BEAE5660071AAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17D0BC01BEAE5660071AAC1 /* Autofill_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_GeneratorTests.swift; sourceTree = "<group>"; };
+		D1CAF6CC1BEAF8A00071FCBE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				D17D0BAF1BEAE5650071AAC1 /* ViewController.swift */,
 				D17D0BB11BEAE5650071AAC1 /* Images.xcassets */,
 				D17D0BB31BEAE5650071AAC1 /* Main.storyboard */,
+				D1CAF6CC1BEAF8A00071FCBE /* Constants.swift */,
 				D17D0BAB1BEAE5650071AAC1 /* Supporting Files */,
 			);
 			path = "Autofill Generator";
@@ -153,7 +156,8 @@
 		D17D0BA01BEAE5650071AAC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Lex;
 				TargetAttributes = {
 					D17D0BA71BEAE5650071AAC1 = {
@@ -210,6 +214,7 @@
 			files = (
 				D17D0BB01BEAE5650071AAC1 /* ViewController.swift in Sources */,
 				D17D0BAE1BEAE5650071AAC1 /* AppDelegate.swift in Sources */,
+				D1CAF6CD1BEAF8A00071FCBE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +269,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -330,6 +336,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Autofill Generator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Autofill Generator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -360,6 +368,7 @@
 				);
 				INFOPLIST_FILE = "Autofill GeneratorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill Generator.app/Contents/MacOS/Autofill Generator";
 			};
@@ -376,6 +385,7 @@
 				);
 				INFOPLIST_FILE = "Autofill GeneratorTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill Generator.app/Contents/MacOS/Autofill Generator";
 			};
@@ -400,6 +410,7 @@
 				D17D0BC61BEAE5660071AAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D17D0BC71BEAE5660071AAC1 /* Build configuration list for PBXNativeTarget "Autofill GeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +419,7 @@
 				D17D0BC91BEAE5660071AAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
