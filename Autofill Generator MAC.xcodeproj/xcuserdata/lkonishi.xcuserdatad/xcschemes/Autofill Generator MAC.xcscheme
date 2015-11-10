@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D17D0BA71BEAE5650071AAC1"
-               BuildableName = "Autofill Generator.app"
-               BlueprintName = "Autofill Generator"
-               ReferencedContainer = "container:Autofill Generator.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D17D0BB91BEAE5660071AAC1"
-               BuildableName = "Autofill GeneratorTests.xctest"
-               BlueprintName = "Autofill GeneratorTests"
-               ReferencedContainer = "container:Autofill Generator.xcodeproj">
+               BlueprintIdentifier = "D1CAF6D61BEB0C5F0071FCBE"
+               BuildableName = "Autofill Generator MAC.app"
+               BlueprintName = "Autofill Generator MAC"
+               ReferencedContainer = "container:Autofill Generator MAC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D17D0BB91BEAE5660071AAC1"
-               BuildableName = "Autofill GeneratorTests.xctest"
-               BlueprintName = "Autofill GeneratorTests"
-               ReferencedContainer = "container:Autofill Generator.xcodeproj">
+               BlueprintIdentifier = "D1CAF6E71BEB0C5F0071FCBE"
+               BuildableName = "Autofill Generator MACTests.xctest"
+               BlueprintName = "Autofill Generator MACTests"
+               ReferencedContainer = "container:Autofill Generator MAC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D1CAF6F21BEB0C600071FCBE"
+               BuildableName = "Autofill Generator MACUITests.xctest"
+               BlueprintName = "Autofill Generator MACUITests"
+               ReferencedContainer = "container:Autofill Generator MAC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D17D0BA71BEAE5650071AAC1"
-            BuildableName = "Autofill Generator.app"
-            BlueprintName = "Autofill Generator"
-            ReferencedContainer = "container:Autofill Generator.xcodeproj">
+            BlueprintIdentifier = "D1CAF6D61BEB0C5F0071FCBE"
+            BuildableName = "Autofill Generator MAC.app"
+            BlueprintName = "Autofill Generator MAC"
+            ReferencedContainer = "container:Autofill Generator MAC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D17D0BA71BEAE5650071AAC1"
-            BuildableName = "Autofill Generator.app"
-            BlueprintName = "Autofill Generator"
-            ReferencedContainer = "container:Autofill Generator.xcodeproj">
+            BlueprintIdentifier = "D1CAF6D61BEB0C5F0071FCBE"
+            BuildableName = "Autofill Generator MAC.app"
+            BlueprintName = "Autofill Generator MAC"
+            ReferencedContainer = "container:Autofill Generator MAC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -98,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D17D0BA71BEAE5650071AAC1"
-            BuildableName = "Autofill Generator.app"
-            BlueprintName = "Autofill Generator"
-            ReferencedContainer = "container:Autofill Generator.xcodeproj">
+            BlueprintIdentifier = "D1CAF6D61BEB0C5F0071FCBE"
+            BuildableName = "Autofill Generator MAC.app"
+            BlueprintName = "Autofill Generator MAC"
+            ReferencedContainer = "container:Autofill Generator MAC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
